@@ -1,0 +1,93 @@
+.wrapper {
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  gap: 20px;
+
+  button {
+    padding: 10px;
+    border-radius: 8px;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    transition: all 0.3 ease-in-out;
+    cursor: pointer;
+    border: none;
+  }
+
+  .btn-primary {
+    color: #fff;
+    background-color: #0e6dfd;
+    &:hover {
+      background-color: #145fcf;
+    }
+    &:active {
+      background-color: #1152b3;
+    }
+  }
+
+  .btn-secondary {
+    color: #fff;
+    background-color: #6c757d;
+    &:hover {
+      background-color: #626970;
+    }
+    &:active {
+      background-color: #515558;
+    }
+  }
+
+  .btn-success {
+    color: white;
+    background-color: #198754;
+    &:hover {
+      background-color: #187a4c;
+    }
+    &:active {
+      background-color: #14643f;
+    }
+  }
+
+  .btn-danger {
+    color: white;
+    background-color: #dc3545;
+    &:hover {
+      background-color: #ca3040;
+    }
+    &:active {
+      background-color: #b81e2d;
+    }
+  }
+
+  .btn-warning {
+    color: white;
+    background-color: #ffc107;
+    &:hover {
+      background-color: #f5cb4c;
+    }
+    &:active {
+      background-color: #ffc107;
+    }
+  }
+
+  .btn-info {
+    color: white;
+    background-color: #0dcaf0;
+    &:hover {
+      background-color: #29d4f7;
+    }
+    &:active {
+      background-color: #0dcaf0;
+    }
+  }
+
+  .btn-dark {
+    color: white;
+    background-color: #212529;
+    &:hover {
+      background-color: #35383b;
+    }
+    &:active {
+      background-color: #4a4c4e;
+    }
+  }
+}
